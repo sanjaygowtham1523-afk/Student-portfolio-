@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sanjay - Student Portfolio</title>
+
+  <style>
+
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+
+    body {
+
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+      background: #f4f6f9;
+
+      color: #2d3436;
+
+      line-height: 1.6;
+
+    }
+
+    /* Header */
+
+    header {
+
+      background: linear-gradient(135deg, #273c75, #40739e);
+
+      color: white;
+
+      padding: 50px 20px;
+
+      text-align: center;
+
+    }
+
+    header img {
+
+      width: 130px;
+
+      height: 130px;
+
+      border-radius: 50%;
+
+      border: 4px solid white;
+
+      margin-bottom: 15px;
+
+    }
+
+    header h1 {font-size: 2.5rem; margin-bottom: 10px;}
+
+    header p {font-size: 1.1rem; opacity: 0.9;}
+
+    /* Navigation */
+
+    nav {
+
+      display: flex;
+
+      justify-content: center;
+
+      background: #192a56;
+
+      padding: 12px;
+
+      position: sticky;
+
+      top: 0;
+
+      z-index: 100;
+
+    }
+
+    nav a {
+
+      color: white;
+
+      text-decoration: none;
+
+      margin: 0 18px;
+
+      font-weight: bold;
+
+      transition: 0.3s;
+
+    }
+
+    nav a:hover {color: #fbc531; border-bottom: 2px solid #fbc531; padding-bottom: 4px;}
+
+    /* Sections */
+
+    section {
+
+      padding: 50px 20px;
+
+      max-width: 1000px;
+
+      margin: auto;
+
+    }
+
+    h2 {
+
+      margin-bottom: 25px;
+
+      text-align: center;
+
+      color: #192a56;
+
+      font-size: 2rem;
+
+    }
+
+    /* Cards */
+
+    .card {
+
+      background: white;
+
+      padding: 25px;
+
+      margin-bottom: 25px;
+
+      border-radius: 12px;
+
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+      transition: 0.3s;
+
+    }
+
+    .card:hover {transform: translateY(-5px);}
+
+    /* Skills */
+
+    .skills ul, .education ul {
+
+      list-style: none;
+
+      padding-left: 0;
+
+    }
+
+    .skills li, .education li {
+
+      background: #dfe6e9;
+
+      margin: 8px 0;
+
+      padding: 12px;
+
+      border-radius: 5px;
+
+      font-weight: 500;
+
+    }
+
+    /* Projects */
+
+    .projects .project {
+
+      margin-bottom: 20px;
+
+    }
+
+    .projects h3 {
+
+      color: #273c75;
+
+    }
+
+    /* Contact */
+
+    .contact-info {
+
+      text-align: center;
+
+    }
+
+    .btn {
+
+      display: inline-block;
+
+      margin-top: 12px;
+
+      padding: 12px 22px;
+
+      background: #273c75;
+
+      color: white;
+
+      text-decoration: none;
+
+      border-radius: 5px;
+
+      transition: 0.3s;
+
+    }
+
+    .btn:hover {background: #40739e;}
+
+    /* Footer */
+
+    footer {
+
+      background: #2f3640;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 15px;
+
+      margin-top: 20px;
+
+      font-size: 0.9rem;
+
+    }
+
+    /* Social Links */
+
+    .social {
+
+      margin-top: 15px;
+
+    }
+
+    .social a {
+
+      margin: 0 10px;
+
+      color: #273c75;
+
+      text-decoration: none;
+
+      font-weight: bold;
+
+    }
+
+    .social a:hover {color: #e1b12c;}
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header>
+
+    <img src="Passport photo.jpg" alt="Profile Photo">
+
+    <h1>Sanjay</h1>
+
+    <p>2nd Year B.Sc Computer Science | Passionate about Data Science</p>
+
+  </header>
+
+  <!-- Navigation -->
+
+  <nav>
+
+    <a href="#about">About</a>
+
+    <a href="#education">Education</a>
+
+    <a href="#skills">Skills</a>
+
+    <a href="#projects">Projects</a>
+
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+  <!-- About -->
+
+  <section id="about" class="card">
+
+    <h2>About Me</h2>
+
+    <p>Hello! I am <b>Sanjay</b>, a passionate and motivated student currently pursuing 
+
+    <b>2nd year B.Sc Computer Science</b>.  
+
+     I aim to build a successful career in IT, focusing on
+
+    <b>web development, data science, and programming.</b></p>
+
+  </section>
+
+  <!-- Education -->
+
+  <section id="education" class="card education">
+
+    <h2>Education</h2>
+
+    <ul>
+
+      <li><b>B.Sc Computer Science</b> – Jeppiaar College of Arts and Science</li>
+
+      <li><b>Government School</b> – Thoraipakkam Government School</li>
+
+    </ul>
+
+  </section>
+
+  <!-- Skills -->
+
+  <section id="skills" class="card skills">
+
+    <h2>Skills</h2>
+
+    <ul>
+
+      <li>HTML, CSS, JavaScript</li>
+
+      <li>Java & Python Programming</li>
+
+      <li>Data Science Basics</li>
+
+      <li>Problem Solving & Communication</li>
+
+    </ul>
+
+  </section>
+
+  <!-- Projects -->
+
+  <section id="projects" class="card projects">
+
+    <h2>Projects</h2>
+
+    <div class="project">
+
+      <h3>Portfolio Website</h3>
+
+      <p>Created a responsive portfolio website using HTML, CSS, and JavaScript.</p>
+
+    </div>
+
+    <div class="project">
+
+      <h3>Data Analysis Project</h3>
+
+      <p>Analyzed student performance dataset using Python and created visualizations.</p>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+
+  <section id="contact" class="card contact-info">
+
+    <h2>Contact Me</h2>
+
+    <p><b>Mobile:</b> 6381803952</p>
+
+    <p><b>Email:</b> sanjaygowtham1523@gmail.com</p>
+
+    <a href="mailto:keerthana10007@gmail.com" class="btn">Send Email</a>
+
+    <div class="social">
+
+      <p>Connect with me:</p>
+
+      <!-- Add social links if you want -->
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+
+    <p>&copy; 2025 Sanjay | Student Portfolio | Naan Mudhalvan</p>
+
+  </footer>
+
+  <!-- JavaScript -->
+
+  <script>
+
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+
+      link.addEventListener("click", function(e) {
+
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute("href"))
+
+          .scrollIntoView({ behavior: "smooth" });
+
+      });
+
+    });
+
+  </script>
+
+</body>
+
+</html>
